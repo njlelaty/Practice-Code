@@ -1,8 +1,13 @@
-
-PVector loc, vel, acc;
+PVector loc,vel,acc;
 PVector loc2, vel2, acc2;
-int sz = 150;
+int sz = 70;
 int sz2 = 200;
+int count = 100;
+PVector [] loc = new PVector[count];
+PVector [] vel = new PVector[count];
+PVector [] acc = new PVector[count];
+float [] sz = new float[count];
+
 
 void setup () {
   size(800, 600);
